@@ -137,8 +137,8 @@ void* mMonitor_thread(void *args)
 
 void* mCollector_thread(void *args) 
 {
-	int lower_bound = 30; // Lower bound of the range
-	int upper_bound = 40; // Upper bound of the range
+	int lower_bound = 25; // Lower bound of the range
+	int upper_bound = 35; // Upper bound of the range
 	int sleep_time;
 	int full_value,i;
 
